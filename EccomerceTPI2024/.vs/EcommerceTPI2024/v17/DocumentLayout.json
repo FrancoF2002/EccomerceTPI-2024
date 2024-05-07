@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UTN\\2024\\Prog 3\\Domain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|c:\\utn\\2024\\prog 3\\domain\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|solutionrelative:web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\domain\\domain\\enum\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\enum\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:35:30.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Web\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:04:15.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\History.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\History.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\History.cs",
+              "RelativeToolTip": "Domain\\Entities\\History.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:48:57.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Enum\\UserType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enum\\UserType.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Enum\\UserType.cs",
+              "RelativeToolTip": "Domain\\Enum\\UserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:29:08.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:18:16.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ShoppingCart.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\ShoppingCart.cs",
+              "RelativeToolTip": "Domain\\Entities\\ShoppingCart.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:17:39.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "Domain\\Entities\\Client.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:46:31.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:17:07.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwBcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T21:16:48.592Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
