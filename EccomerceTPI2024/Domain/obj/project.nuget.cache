@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+wPTW+IQlVIEMK6bt2Ds9gVy5IWEUB30l2uVwkh/XEAR3cqOsBbiBf6m1xPGwNhPjOr3co+qekpxBh53p+Foyw==",
+  "dgSpecHash": "u4V1RrP3Z86alkzIsKcGWWOgOJk4qN8hcMYB2c75RGHLTeIopV6nDOJu9fu0bDUxuoU2qYdbW4b+Rfdqre+kCw==",
   "success": true,
-  "projectFilePath": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

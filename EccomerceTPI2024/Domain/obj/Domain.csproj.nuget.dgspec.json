@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Domain.csproj": {}
+    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Domain.csproj": {
+    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\Domain.csproj",
+        "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\2024\\Prog 3\\Domain\\Domain\\obj\\",
+        "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
