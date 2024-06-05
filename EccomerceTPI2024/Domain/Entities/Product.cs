@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Product
+    public class Product
     {
         [Key] // Hace que la id sea la clave principal dentro de la BD
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -24,5 +24,6 @@ namespace Domain.Entities
 
         [Required]
         public bool ProdState { get; set; } = false;
+        public ICollection<Order> Order { get; set; }
     }
 }

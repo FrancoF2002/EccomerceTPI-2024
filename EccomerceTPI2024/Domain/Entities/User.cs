@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Domain.Enum;
 
 namespace Domain.Entities
 {
-    public abstract class User
+    public class User
     {
         [Key] // Hace que la id sea la clave principal dentro de la BD
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -22,7 +19,7 @@ namespace Domain.Entities
         public string Password { get; set; }
 
         [Required]
-        public string UserType { get; set; }
+        public UserType UserType { get; set; }
         [Required]
         public bool UserState { get; set; } = true;
     }

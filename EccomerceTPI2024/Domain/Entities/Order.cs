@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Order
+    public class Order
     {
         public int OrderId { get; set; }
         public string OrderState { get; set; }
         public double OrderPrice { get; set; }
+        public ICollection<Product> Product { get; set; }
     }
 }

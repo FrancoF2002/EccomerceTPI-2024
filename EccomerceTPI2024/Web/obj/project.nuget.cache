@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CsHUen3YxsTFL6KXvRmwy8Cc99jsZslYzuVfytdNqhDOZNCjbtc522+pCc9eSUdV5h8N4q/9nejfaTTH9qcDDg==",
+  "dgSpecHash": "+UXU/oe+BNA4rRuxry+KStda1Ttgq0fCbdf6tBCquUbGwkeQcmwGiok+dMsQjUAoLlch1PNstJV2m0v0JP6bdA==",
   "success": true,
   "projectFilePath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.6\\microsoft.entityframeworkcore.sqlite.8.0.6.nupkg.sha512",
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.6\\microsoft.entityframeworkcore.sqlite.core.8.0.6.nupkg.sha512",
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.6\\microsoft.entityframeworkcore.sqlserver.8.0.6.nupkg.sha512",
-    "C:\\Users\\elpan\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.6\\microsoft.entityframeworkcore.tools.8.0.6.nupkg.sha512",
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\elpan\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

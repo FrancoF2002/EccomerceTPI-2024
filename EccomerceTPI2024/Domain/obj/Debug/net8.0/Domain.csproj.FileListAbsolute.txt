@@ -1,0 +1,15 @@
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\bin\Debug\net8.0\Domain.dll
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\bin\Debug\net8.0\Domain.pdb
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.dll
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.pdb
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\UTN\2024\Prog 3\TPI\EccomerceTPI-2024\EccomerceTPI2024\Domain\obj\Debug\net8.0\ref\Domain.dll
