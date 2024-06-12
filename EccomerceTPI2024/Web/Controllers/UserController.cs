@@ -1,4 +1,5 @@
 ﻿using Application.Dtos;
+using Application.Services;
 using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -16,8 +17,6 @@ namespace Web.Controllers
         {
             _userService = userService;
         }
-
-
         [HttpGet]
         public ActionResult<User?> GetByName(string name)
         {
@@ -25,11 +24,9 @@ namespace Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddUser([FromBody] UserForAddRequest body) 
+     public IActionResult Add([FromBody]UserForAddRequest request)
         {
-            return Ok(
+            return Ok(_userService.AddUser(request));
         }
-
-
     }
 }

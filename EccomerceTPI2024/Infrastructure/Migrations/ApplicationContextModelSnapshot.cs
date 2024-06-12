@@ -22,6 +22,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("ClientUserId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<double>("OrderPrice")
                         .HasColumnType("REAL");
 
@@ -30,6 +33,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("OrderId");
+
+                    b.HasIndex("ClientUserId");
 
                     b.ToTable("Order");
                 });
@@ -106,6 +111,17 @@ namespace Infrastructure.Migrations
                     b.ToTable("OrderProduct");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Order", b =>
+                {
+                    b.HasOne("Domain.Entities.User", "ClientUser")
+                        .WithMany("Orders")
+                        .HasForeignKey("ClientUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ClientUser");
+                });
+
             modelBuilder.Entity("OrderProduct", b =>
                 {
                     b.HasOne("Domain.Entities.Order", null)
@@ -119,6 +135,11 @@ namespace Infrastructure.Migrations
                         .HasForeignKey("ProductProdId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Entities.User", b =>
+                {
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

@@ -12,5 +12,6 @@ namespace Domain.Entities
         public string OrderState { get; set; }
         public double OrderPrice { get; set; }
         public ICollection<Product> Product { get; set; }
+        public User ClientUser { get; set; }
     }
 }

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace Application.Services
 {
-    public class UserService : IUserService 
+    public class UserService : IUserService
     {
 
         private readonly IUserRepository _repository;

@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using Domain.Enum;
+using System.Collections.ObjectModel;
 
 namespace Domain.Entities
 {
@@ -20,7 +21,9 @@ namespace Domain.Entities
 
         [Required]
         public UserType UserType { get; set; }
-        [Required]
+         [Required]
         public bool UserState { get; set; } = true;
+        
+        public Collection<Order> Orders { get; set; }
     }
 }
