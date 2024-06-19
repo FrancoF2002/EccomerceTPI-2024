@@ -10,9 +10,6 @@ namespace Application.Models.Request
 {
     public class AddProductRequest
     {
-        [Key] // Hace que la id sea la clave principal dentro de la BD
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ProdId { get; set; }
         [Required]
         public string ProdName { get; set; }
         [Required]

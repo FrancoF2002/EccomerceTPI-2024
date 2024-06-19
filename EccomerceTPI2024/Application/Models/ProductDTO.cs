@@ -11,27 +11,26 @@ namespace Application.Models
     public class ProductDTO
     {
         [Required]
-        public int ProdId { get; set; }
+        public int Id { get; set; }
         [Required]
-        public string? ProdName { get; set; }
+        public string Name { get; set; }
         [Required]
-        public string? ProdDescription { get; set; }
+        public string Description { get; set; }
         [Required]
-        public decimal? ProdPrice { get; set; }
+        public decimal Price { get; set; }
         [Required]     
-        public int ProdStock { get; set; }
+        public int Stock { get; set; }
         [Required]
-        public bool ProdState { get; set; } = false;
+        public bool State { get; set; } = false;
 
         public static ProductDTO ToDTO(Product entity) {
             ProductDTO dto = new ProductDTO();
 
-            //dto.ProdId = entity.ProdId;
-            dto.ProdName = entity.ProdName;
-            dto.ProdDescription = entity.ProdDescription;
-            dto.ProdPrice = entity.ProdPrice;
-            dto.ProdStock = entity.ProdStock;
-            dto.ProdState = entity.ProdState;
+            dto.Name = entity.ProdName;
+            dto.Description = entity.ProdDescription;
+            dto.Price = entity.ProdPrice;
+            dto.Stock = entity.ProdStock;
+            dto.State = entity.ProdState;
             return dto;
         }
 
@@ -53,10 +52,10 @@ namespace Application.Models
         {
             ProductDTO dto = new ProductDTO();
 
-            dto.ProdName = entity.ProdName;
-            dto.ProdPrice = entity.ProdPrice;
-            dto.ProdStock = entity.ProdStock;
-            dto.ProdState = entity.ProdState;
+            dto.Name = entity.ProdName;
+            dto.Price = entity.ProdPrice;
+            dto.Stock = entity.ProdStock;
+            dto.State = entity.ProdState;
             return dto;
         }
 

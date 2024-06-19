@@ -41,7 +41,6 @@ namespace Application.Services
         {
             var obj = new Product()
             {
-                ProdId = request.ProdId,
                 ProdName = request.ProdName,
                 ProdDescription = request.ProdDescription,
                 ProdPrice = request.ProdPrice,
@@ -53,18 +52,17 @@ namespace Application.Services
         }
 
         //Metodo 4: Actualiza un producto
-        public void UpdateProduct(int id, UpdateRequest product)
+        public void UpdateProduct(int id, UpdateRequest request)
         {
             var updateProductValidate = _repository.GetProductById(id);
 
-            updateProductValidate.ProdName = product.ProdName;
-            updateProductValidate.ProdPrice = (decimal)product.ProdPrice;
-            updateProductValidate.ProdStock = product.ProdStock;
-            updateProductValidate.ProdState = (bool)product.ProdState;
+            updateProductValidate.ProdName = request.Name;
+            updateProductValidate.ProdPrice = request.Price;
+            updateProductValidate.ProdStock = request.Stock;
+            updateProductValidate.ProdState = request.State;
 
             _repository.UpdateProduct(updateProductValidate);
 
-            //return ProductDTO.ToUpdateDTO(updateProductValidate);
         }
 
         //Metodo 5: Elimina un producto

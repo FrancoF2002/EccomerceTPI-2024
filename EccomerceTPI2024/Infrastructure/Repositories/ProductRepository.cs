@@ -27,13 +27,13 @@ namespace Infrastructure.Repositories
         //getProductByName
         public Product? GetProductByName(string name)
         {
-            return _context.Products.SingleOrDefault(p => p.ProdName == name);
+            return _context.Products.FirstOrDefault(p => p.ProdName == name);
         }
 
         //getProductById
         public Product? GetProductById(int id)
         {
-            return _context.Products.SingleOrDefault(p => p.ProdId == id);
+            return _context.Products.FirstOrDefault(p => p.ProdId == id);
         }
 
         //createProduct

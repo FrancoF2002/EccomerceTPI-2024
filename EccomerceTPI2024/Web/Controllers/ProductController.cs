@@ -25,7 +25,7 @@ namespace Web.Controllers
             return Ok(_prodService.GetAll());
         }
 
-        [HttpGet("ProductByName")]
+        [HttpGet("ProductByName/{name}")]
         public ActionResult GetByName(string name)
         {
             return Ok(_prodService.GetProductByName(name));
@@ -38,9 +38,9 @@ namespace Web.Controllers
         }
 
         [HttpPut("Update")]
-        public ActionResult<ProductDTO> UpdateProduct(int id,UpdateRequest request) 
+        public void UpdateProduct(int id,UpdateRequest request) 
         {
-            return Ok(_prodService.UpdateProduct(id, request));
+            _prodService.UpdateProduct(id,request);
         }
 
         [HttpDelete("Delete")]

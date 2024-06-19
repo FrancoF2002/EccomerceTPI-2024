@@ -10,12 +10,12 @@ namespace Application.Models.Request
     public class UpdateRequest
     {
         [Required]
-        public string? ProdName { get; set; }
+        public string Name { get; set; }
         [Required]
-        public decimal? ProdPrice { get; set; }
+        public decimal Price { get; set; }
         [Required]
-        public int ProdStock { get; set; }
+        public int Stock { get; set; }
         [Required]
-        public bool ProdState { get; set; } = false;
+        public bool State { get; set; } = false;
     }
 }
