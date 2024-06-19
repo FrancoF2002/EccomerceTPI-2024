@@ -1,5 +1,4 @@
-﻿using Application.Dtos.Models;
-using Application.Dtos.Models.Request;
+﻿
 using Application.Interfaces;
 using Domain.Entities;
 using Domain.Interfaces;
@@ -29,6 +28,12 @@ namespace Infrastructure.Repositories
         public Product? GetProductByName(string name)
         {
             return _context.Products.SingleOrDefault(p => p.ProdName == name);
+        }
+
+        //getProductById
+        public Product? GetProductById(int id)
+        {
+            return _context.Products.SingleOrDefault(p => p.ProdId == id);
         }
 
         //createProduct
