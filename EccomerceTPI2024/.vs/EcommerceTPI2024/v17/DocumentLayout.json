@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B100B74-0BCE-44BB-B1A2-07CD7AC83713}|Infrastructure\\Infrastructure.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B100B74-0BCE-44BB-B1A2-07CD7AC83713}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\models\\request\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\models\\request\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\models\\request\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\models\\request\\updaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,43 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UpdateRequest.cs",
               "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Request\\UpdateRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Request\\UpdateRequest.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Request\\UpdateRequest.cs",
               "RelativeToolTip": "Application\\Models\\Request\\UpdateRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T19:42:59.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T19:42:59.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwCAAAAAYAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAADgvzgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T19:34:38.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\ProductDTO.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\ProductDTO.cs",
+              "RelativeToolTip": "Application\\Models\\ProductDTO.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:36:01.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Services\\ProductService.cs",
               "RelativeToolTip": "Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAADgv0AAAAAAAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAowFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T00:16:00.374Z",
               "EditorCaption": ""
@@ -78,25 +90,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\ProductDTO.cs",
-              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\ProductDTO.cs",
-              "RelativeToolTip": "Application\\Models\\ProductDTO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAawCEAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:36:01.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IProductService.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAhwA0AAAAUAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T00:34:33.753Z",
               "EditorCaption": ""
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAASwBsAAAApAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAIAwwDAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T00:32:47.438Z",
               "EditorCaption": ""

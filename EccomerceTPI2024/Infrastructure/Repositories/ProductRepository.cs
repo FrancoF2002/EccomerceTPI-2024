@@ -57,6 +57,14 @@ namespace Infrastructure.Repositories
             _context.SaveChanges();
         }
 
+        //public void DeleteAll() { }
+
+
+        public void SaveChanges() 
+        {
+            _context.SaveChanges();
+        }
+
 
     }
 }

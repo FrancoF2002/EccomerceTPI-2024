@@ -1,5 +1,6 @@
 ﻿using Application.Models;
 using Application.Models.Request;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,8 @@ namespace Application.Interfaces
         List<ProductDTO> GetAll();
         ProductDTO? GetProductByName(string name);
         void AddProduct(AddProductRequest request);
-        void UpdateProduct(int id, UpdateRequest product);
-        void DeleteProduct(int id);
+        void UpdateProduct(string name, UpdateRequest product);
+        void DeleteProduct(string name);
 
     }
 }

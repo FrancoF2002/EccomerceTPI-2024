@@ -52,13 +52,15 @@ namespace Application.Models
         {
             ProductDTO dto = new ProductDTO();
 
+            dto.Id = entity.ProdId;
             dto.Name = entity.ProdName;
+            dto.Description = entity.ProdDescription;
             dto.Price = entity.ProdPrice;
             dto.Stock = entity.ProdStock;
             dto.State = entity.ProdState;
             return dto;
-        }
 
+        }
 
     }
 }

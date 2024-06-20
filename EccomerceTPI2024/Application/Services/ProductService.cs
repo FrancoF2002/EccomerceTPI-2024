@@ -3,6 +3,7 @@ using Application.Models;
 using Application.Models.Request;
 using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,29 +49,40 @@ namespace Application.Services
                 ProdState = request.ProdState
             };
             _repository.AddProduct(obj);
+            _repository.SaveChanges();
 
         }
 
         //Metodo 4: Actualiza un producto
-        public void UpdateProduct(int id, UpdateRequest request)
+        public void UpdateProduct(string name, UpdateRequest request)
         {
-            var updateProductValidate = _repository.GetProductById(id);
+            var updateProductValidate = _repository.GetProductByName(name);
 
-            updateProductValidate.ProdName = request.Name;
-            updateProductValidate.ProdPrice = request.Price;
-            updateProductValidate.ProdStock = request.Stock;
-            updateProductValidate.ProdState = request.State;
+            if (updateProductValidate != null) {
 
-            _repository.UpdateProduct(updateProductValidate);
+                updateProductValidate.ProdName = request.Name;
+                updateProductValidate.ProdPrice = request.Price;
+                updateProductValidate.ProdStock = request.Stock;
+                updateProductValidate.ProdState = request.State;
 
+                _repository.UpdateProduct(updateProductValidate);
+                _repository.SaveChanges();
+            }
+
+            
+            //return ProductDTO.ToUpdateDTO(updateProductValidate);
         }
 
         //Metodo 5: Elimina un producto
-        public void DeleteProduct(int id)
+        public void DeleteProduct(string name)
         {
-            var deleteProductValidate = _repository.GetProductById(id);
-           _repository.DeleteProduct(deleteProductValidate);
-            
+            var deleteProductValidate = _repository.GetProductByName(name);
+
+            if (deleteProductValidate != null) { 
+                _repository.DeleteProduct(deleteProductValidate);
+                _repository.SaveChanges();
+            }  
+
         }
 
 

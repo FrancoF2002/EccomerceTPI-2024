@@ -38,15 +38,15 @@ namespace Web.Controllers
         }
 
         [HttpPut("Update")]
-        public void UpdateProduct(int id,UpdateRequest request) 
+        public void UpdateProduct(string name, UpdateRequest request) 
         {
-            _prodService.UpdateProduct(id,request);
+            _prodService.UpdateProduct(name, request);
         }
 
         [HttpDelete("Delete")]
-        public void DeleteProduct(int id)
+        public void DeleteProduct(string name)
         {
-            _prodService.DeleteProduct(id);
+            _prodService.DeleteProduct(name);
         }
 
 
