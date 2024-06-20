@@ -71,8 +71,7 @@
               "RelativeToolTip": "Application\\Models\\ProductDTO.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAxwA8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T01:36:01.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T01:36:01.334Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Application\\Services\\ProductService.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAowFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T00:16:00.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T00:16:00.374Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:34:33.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T00:34:33.753Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
               "ViewState": "AQIAACIAAAAAAAAAAIAwwDAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:32:47.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T00:32:47.438Z"
             }
           ]
         }
