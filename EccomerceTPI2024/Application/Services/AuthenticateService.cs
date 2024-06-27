@@ -1,23 +1,29 @@
-﻿using Application.Models.Request;
+﻿using Application.Interfaces;
+using Application.Models.Request;
 using Application.Models.Response;
 using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class AuthenticateService
+    public class AuthenticateService : ICustomAuthenticateService
     {
         private readonly IUserRepository _userRepository;
+        private readonly AutenticacionServiceOptions _options;
 
-        public AuthenticateService(IUserRepository userRepository)
+        public AuthenticateService(IUserRepository userRepository, IOptions<AutenticacionServiceOptions> options)
         {
             _userRepository = userRepository;
+            _options = options.Value;
         }
         public User? ValidateUser(AuthenticateRequest authenticateRequest) 
         {
@@ -37,17 +43,47 @@ namespace Application.Services
         }
 
 
-        public AuthenticateResponse Authenticate(AuthenticateRequest user)
+        public string Authenticate(AuthenticateRequest authenticateRequest)
         {
-            var userToAuth = ValidateUser(user);
+            var user = ValidateUser(authenticateRequest);
 
-            if (userToAuth == null)
+            if (user == null)
             { 
                 throw new ApplicationException("El usuario no pudo ser autenticado");
             }
 
+            //Paso 2: Crear el token
+            var securityPassword = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_options.SecretForKey)); //Traemos la SecretKey del Json. agregar antes: using Microsoft.IdentityModel.Tokens;
+
+            var credentials = new SigningCredentials(securityPassword, SecurityAlgorithms.HmacSha256);
+
+            //Los claims son datos en clave -> valor que nos permite guardar data del usuario.
+            var claimsForToken = new List<Claim>();
+            claimsForToken.Add(new Claim("sub", user.Id.ToString())); //"sub" es una key estándar que significa unique user identifier, es decir, si mandamos el id del usuario por convención lo hacemos con la key "sub".
+            claimsForToken.Add(new Claim("given_name", user.Name));
+            claimsForToken.Add(new Claim("role", authenticateRequest.UserType.ToString())); //quiere usar la API por lo general lo que espera es que se estén usando estas keys.
+
+            var jwtSecurityToken = new JwtSecurityToken( //agregar using System.IdentityModel.Tokens.Jwt; Acá es donde se crea el token con toda la data que le pasamos antes.
+            _options.Issuer,
+            _options.Audience,
+            claimsForToken,
+            DateTime.UtcNow,
+            DateTime.UtcNow.AddHours(1),
+            credentials);
+            //Pasamos el token a string
+            var tokenToReturn = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
+
+            return tokenToReturn.ToString();
+        }
 
 
+        public class AutenticacionServiceOptions
+        {
+            public const string AutenticacionService = "AutenticacionService";
+
+            public string Issuer { get; set; }
+            public string Audience { get; set; }
+            public string SecretForKey { get; set; }
         }
     }
 }

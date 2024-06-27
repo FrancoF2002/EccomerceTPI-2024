@@ -33,7 +33,7 @@ namespace Infrastructure.Repositories
         //getProductById
         public Product? GetProductById(int id)
         {
-            return _context.Products.FirstOrDefault(p => p.ProdId == id);
+            return _context.Products.FirstOrDefault(p => p.Id == id);
         }
 
         //createProduct

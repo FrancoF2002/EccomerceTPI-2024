@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C6FBDA-174F-494D-BED8-4FA006CE7F32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B100B74-0BCE-44BB-B1A2-07CD7AC83713}|Infrastructure\\Infrastructure.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\infrastructure\\migrations\\20240627185100_id migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B100B74-0BCE-44BB-B1A2-07CD7AC83713}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240627185100_id migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\models\\response\\authenticateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\models\\response\\authenticateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\application\\models\\request\\authenticaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49E5686-0531-4A72-9DE1-CD252FA135EE}|Application\\Application.csproj|solutionrelative:application\\models\\request\\authenticaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|c:\\utn\\2024\\prog 3\\tpi\\eccomercetpi-2024\\eccomercetpi2024\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD86BE18-487E-49C2-8B7B-ACF99E8BBE6C}|Web\\Web.csproj|solutionrelative:web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "20240627185100_Id migration.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Migrations\\20240627185100_Id migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240627185100_Id migration.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Migrations\\20240627185100_Id migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240627185100_Id migration.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:40:29.641Z",
+              "WhenOpened": "2024-06-27T18:51:01.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T18:25:01.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthenticateResponse.cs",
-              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Response\\AuthenticateResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Response\\AuthenticateResponse.cs",
-              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Response\\AuthenticateResponse.cs",
-              "RelativeToolTip": "Application\\Models\\Response\\AuthenticateResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:32:21.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticateRequest.cs",
-              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Request\\AuthenticateRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\AuthenticateRequest.cs",
-              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Models\\Request\\AuthenticateRequest.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\AuthenticateRequest.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:13:23.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticateService.cs",
-              "DocumentMoniker": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Services\\AuthenticateService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthenticateService.cs",
-              "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Services\\AuthenticateService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthenticateService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:05:37.984Z",
+              "WhenOpened": "2024-06-25T22:25:48.288Z",
               "EditorCaption": ""
             }
           ]

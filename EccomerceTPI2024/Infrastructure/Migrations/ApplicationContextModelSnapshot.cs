@@ -41,7 +41,7 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("ProdId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -62,7 +62,7 @@ namespace Infrastructure.Migrations
                     b.Property<int>("ProdStock")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("ProdId");
+                    b.HasKey("Id");
 
                     b.ToTable("Products");
                 });
@@ -101,12 +101,12 @@ namespace Infrastructure.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ProductProdId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("OrderId", "ProductProdId");
+                    b.HasKey("OrderId", "ProductId");
 
-                    b.HasIndex("ProductProdId");
+                    b.HasIndex("ProductId");
 
                     b.ToTable("OrderProduct");
                 });
@@ -132,7 +132,7 @@ namespace Infrastructure.Migrations
 
                     b.HasOne("Domain.Entities.Product", null)
                         .WithMany()
-                        .HasForeignKey("ProductProdId")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

@@ -3,13 +3,16 @@ using Application.Models;
 using Application.Models.Request;
 using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _prodService;
@@ -18,11 +21,20 @@ namespace Web.Controllers
         {
             _prodService = prodService;
         }
-
+        
         [HttpGet("AllProducts")]
         public ActionResult<List<ProductDTO>> GetAll()
         {
-            return Ok(_prodService.GetAll());
+            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            //if (userRole == "0")
+            //{
+                return Ok(_prodService.GetAll());
+            //}
+            //else
+            //{
+              //  return Unauthorized();
+            //}
+
         }
 
         [HttpGet("ProductByName/{name}")]
