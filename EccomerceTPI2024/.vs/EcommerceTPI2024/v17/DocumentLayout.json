@@ -42,8 +42,7 @@
               "RelativeToolTip": "Web\\Controllers\\ProductController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAgwDMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:12:56.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T20:12:56.084Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAkwCoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:12:23.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T20:12:23.621Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Application\\Services\\ProductService.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAkwCgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:10:00.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T20:10:00.268Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwBoAAAAnAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T18:25:01.936Z",
               "EditorCaption": ""
