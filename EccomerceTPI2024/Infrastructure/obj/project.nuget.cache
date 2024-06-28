@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "vU6Pcy3nd57GjfFr9MeXw/Jvq1cOk/PT1hJhz/geiOOro5b0KPj8/AsbyIMFkODeNwv8iNGNRpc1MkDnaLsWNg==",
+=======
+  "dgSpecHash": "uM5MoF8LZd4=",
+>>>>>>> 00334170098deb92c3a592009e35cd42d4239340
   "success": true,
   "projectFilePath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [

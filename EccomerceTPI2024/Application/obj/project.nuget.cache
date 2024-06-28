@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ikuThTKJHTtVuO25P5s61kbiyQVLroh51qmUT9oir1cgOP0RQVy7pq8T3WdoJF2F6xfDCOAvnjlXJJBhyCSbkw==",
+=======
+  "dgSpecHash": "AqK/I/au8Q0=",
+>>>>>>> 00334170098deb92c3a592009e35cd42d4239340
   "success": true,
   "projectFilePath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
   "expectedPackageFiles": [
