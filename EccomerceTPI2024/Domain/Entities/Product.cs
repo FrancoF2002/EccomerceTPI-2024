@@ -24,8 +24,6 @@ namespace Domain.Entities
 
         [Required]
         public bool ProdState { get; set; } = false;
-        ///public ICollection<Order> Order { get; set; }
-        ///
-        // Hola 
+        public ICollection<Order> Order { get; set; } 
     }
 }
