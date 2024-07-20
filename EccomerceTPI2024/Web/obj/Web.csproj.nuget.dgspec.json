@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj": {}
+    "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
+    "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj"
+              "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj"
               }
             }
           }
@@ -65,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
+    "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +86,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,21 +154,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,15 +176,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
-                "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
+              "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
               }
             }
           }
@@ -251,21 +248,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj": {
+    "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-        "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -273,18 +270,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
-                "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
+              "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
               },
-              "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -338,7 +334,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

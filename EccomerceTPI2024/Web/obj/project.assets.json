@@ -4612,19 +4612,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elpan\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\elpan\\.nuget\\packages\\",
-      "outputPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\obj\\",
+      "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4632,18 +4632,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
-              "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
+            "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj"
             },
-            "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\EccomerceTPI-2024\\EccomerceTPI2024\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -4697,16 +4696,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

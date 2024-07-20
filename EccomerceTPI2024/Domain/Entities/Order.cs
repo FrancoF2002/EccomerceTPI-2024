@@ -17,7 +17,7 @@ namespace Domain.Entities
         public bool OrderState { get; set; }
         [Required]
         public double OrderPrice { get; set; }
-        public ICollection<Product> Product { get; set; }
+        public List<Product> Products { get; set; }
         public User ClientUser { get; set; }
     }
 }

@@ -14,10 +14,14 @@ namespace Application.Services
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IUserRepository _userRepository;
 
-        public OrderService(IOrderRepository orderRepository)
+        public OrderService(IOrderRepository orderRepository, IProductRepository productRepository, IUserRepository userRepository)
         {
             _orderRepository = orderRepository;
+            _productRepository = productRepository;
+            _userRepository = userRepository;
         }
 
         public List<OrderDTO> GetAll()
@@ -32,12 +36,16 @@ namespace Application.Services
 
         public void CreateOrder(AddOrderRequest orders)
         {
+            var products = _productRepository.GetAll().Where(p => orders.ProductsId.Contains(p.Id));
+            var user = _userRepository.GetByName(orders.Username);
             var obj = new Order()
             {
                 OrderState = orders.OrderState,
                 OrderPrice = orders.OrderPrice,
-                Product = orders.Product,
+                ClientUser = user,
+                Products = products.ToList(),
             };
+
             _orderRepository.CreateOrder(obj);
             _orderRepository.SaveChanges();
         }

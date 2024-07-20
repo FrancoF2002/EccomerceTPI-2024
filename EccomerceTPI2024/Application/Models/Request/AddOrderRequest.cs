@@ -14,6 +14,8 @@ namespace Application.Models.Request
         public bool OrderState { get; set; } = false;
         [Required]
         public double OrderPrice { get; set; }
-        public ICollection<Product> Product { get; set; }
+        public IList<int> ProductsId { get; set; }
+        [Required]
+        public string Username { get; set; }
     }
 }
