@@ -12,7 +12,7 @@ namespace Domain.Entities
     {
         [Key] // Hace que la id sea la clave principal dentro de la BD
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ProdId { get; set; }
+        public int Id { get; set; }
         [Required]
         public string ProdName { get; set; }
         [Required]
@@ -24,6 +24,6 @@ namespace Domain.Entities
 
         [Required]
         public bool ProdState { get; set; } = false;
-        public ICollection<Order> Order { get; set; }
+        public ICollection<Order> Order { get; set; } 
     }
 }

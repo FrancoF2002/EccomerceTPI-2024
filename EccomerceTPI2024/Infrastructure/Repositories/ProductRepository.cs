@@ -33,7 +33,12 @@ namespace Infrastructure.Repositories
         //getProductById
         public Product? GetProductById(int id)
         {
-            return _context.Products.FirstOrDefault(p => p.ProdId == id);
+            return _context.Products.FirstOrDefault(p => p.Id == id);
+        }
+
+        public List<Product> GetProductsByIds(IList<int> ids)
+        {
+            return _context.Products.Where(p => ids.Contains(p.Id)).ToList();
         }
 
         //createProduct

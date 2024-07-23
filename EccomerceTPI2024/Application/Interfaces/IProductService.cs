@@ -14,7 +14,7 @@ namespace Application.Interfaces
         List<ProductDTO> GetAll();
         ProductDTO? GetProductByName(string name);
         void AddProduct(AddProductRequest request);
-        void UpdateProduct(string name, UpdateRequest product);
+        void UpdateProduct(string name, UpdateProductRequest product);
         void DeleteProduct(string name);
 
     }

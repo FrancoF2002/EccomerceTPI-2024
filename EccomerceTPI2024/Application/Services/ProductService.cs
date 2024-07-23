@@ -54,7 +54,7 @@ namespace Application.Services
         }
 
         //Metodo 4: Actualiza un producto
-        public void UpdateProduct(string name, UpdateRequest request)
+        public void UpdateProduct(string name, UpdateProductRequest request)
         {
             var updateProductValidate = _repository.GetProductByName(name);
 

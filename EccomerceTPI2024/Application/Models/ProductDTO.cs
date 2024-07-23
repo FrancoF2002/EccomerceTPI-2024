@@ -26,6 +26,7 @@ namespace Application.Models
         public static ProductDTO ToDTO(Product entity) {
             ProductDTO dto = new ProductDTO();
 
+            dto.Id = entity.Id;
             dto.Name = entity.ProdName;
             dto.Description = entity.ProdDescription;
             dto.Price = entity.ProdPrice;
@@ -52,7 +53,7 @@ namespace Application.Models
         {
             ProductDTO dto = new ProductDTO();
 
-            dto.Id = entity.ProdId;
+            dto.Id = entity.Id;
             dto.Name = entity.ProdName;
             dto.Description = entity.ProdDescription;
             dto.Price = entity.ProdPrice;

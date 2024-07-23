@@ -3,12 +3,14 @@ using Application.Models;
 using Application.Models.Request;
 using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -18,37 +20,58 @@ namespace Web.Controllers
         {
             _prodService = prodService;
         }
-
-        [HttpGet("AllProducts")]
+        
+        [HttpGet]
         public ActionResult<List<ProductDTO>> GetAll()
         {
-            return Ok(_prodService.GetAll());
+            var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
+            //if (userRole == "0")
+            //{
+                return Ok(_prodService.GetAll());
+            //}
+            //else
+            //{
+              //  return Unauthorized();
+            //}
+
         }
 
-        [HttpGet("ProductByName/{name}")]
+        [HttpGet("{name}")]
         public ActionResult GetByName(string name)
         {
             return Ok(_prodService.GetProductByName(name));
         }
 
-        [HttpPost("Create")]
-        public void AddProduct(AddProductRequest request)
+        [HttpPost]
+        [Authorize(Roles = "Administrador")]
+        public ActionResult AddProduct(AddProductRequest request)
         {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState.Values.ToList());
+            }
             _prodService.AddProduct(request);
+            return Ok();
         }
 
-        [HttpPut("Update")]
-        public void UpdateProduct(string name, UpdateRequest request) 
+        [HttpPut]
+        [Authorize(Roles = "Administrador")]
+        public ActionResult UpdateProduct(string name, UpdateProductRequest request) 
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState.Values.ToList());
+            }
             _prodService.UpdateProduct(name, request);
+            return NoContent();
         }
 
-        [HttpDelete("Delete")]
-        public void DeleteProduct(string name)
+        [HttpDelete]
+        [Authorize(Roles = "Administrador")]
+        public ActionResult DeleteProduct(string name)
         {
             _prodService.DeleteProduct(name);
+            return NoContent();
         }
-
-
     }
 }
