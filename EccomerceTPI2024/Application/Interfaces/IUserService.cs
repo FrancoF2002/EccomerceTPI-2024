@@ -1,4 +1,4 @@
-﻿using Application.Dtos;
+﻿using Application.Models.Request;
 using Domain.Entities;
 namespace Domain.Interfaces
 {

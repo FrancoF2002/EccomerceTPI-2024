@@ -3227,11 +3227,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\elpan\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
+>>>>>>> Finish
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
       "projectName": "Application",
       "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
@@ -3240,6 +3245,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elpan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Windows\\Desktop\\Holaprog3-2\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Users\\Windows\\Desktop\\Holaprog3-2\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows\\Desktop\\Holaprog3-2\\EccomerceTPI-2024\\EccomerceTPI2024\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Finish
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3253,8 +3268,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
               "projectPath": "C:\\UTN\\2024\\Prog 3\\TPI\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj"
+=======
+            "C:\\Users\\Windows\\Desktop\\Holaprog3-2\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\Holaprog3-2\\EccomerceTPI-2024\\EccomerceTPI2024\\Domain\\Domain.csproj"
+>>>>>>> Finish
             }
           }
         }
