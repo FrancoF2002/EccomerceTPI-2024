@@ -25,9 +25,6 @@ namespace Infrastructure.Migrations
                     b.Property<int>("ClientUserId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("OrderPrice")
-                        .HasColumnType("REAL");
-
                     b.Property<bool>("OrderState")
                         .HasColumnType("INTEGER");
 

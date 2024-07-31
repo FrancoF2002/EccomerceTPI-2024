@@ -26,7 +26,7 @@ namespace Web.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Order> GetOrder(int id)
+        public ActionResult<OrderDTO> GetOrder(int id)
         {
             var order = _orderService.GetOrderById(id);
             if (order == null)
@@ -43,7 +43,11 @@ namespace Web.Controllers
             {
                 return BadRequest(ModelState.Values.ToList());
             }
-            _orderService.CreateOrder(orders);
+
+            var cre = _orderService.CreateOrder(orders);
+
+            if (cre == false) return BadRequest();
+
             return Ok();
         }
 
@@ -55,14 +59,20 @@ namespace Web.Controllers
             {
                 return BadRequest();
             }
-            _orderService.UpdateOrder(order);
+            
+            var ord = _orderService.UpdateOrder(order);
+            if (ord == false) return NotFound("Order not found");
+            
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteOrder(int id)
         {
-            _orderService.DeleteOrder(id);
+            var del = _orderService.DeleteOrder(id);
+
+            if (del == false) return NotFound();
+            
             return NoContent();
         }
     }

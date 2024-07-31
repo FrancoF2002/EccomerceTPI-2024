@@ -26,45 +26,68 @@ namespace Application.Services
 
         public List<OrderDTO> GetAll()
         {
-            return OrderDTO.ToDTO(_orderRepository.GetAll());
+            var orders = _orderRepository.GetAll();
+
+            foreach(var item in orders)
+            {
+                item.OrderPrice = item.Products.Sum(p => p.ProdPrice);
+            }
+
+            return OrderDTO.ToDTO(orders);
         }
 
-        public OrderDTO GetOrderById(int id)
+        public OrderDTO? GetOrderById(int id)
         {
-            return OrderDTO.ToDTO(_orderRepository.GetOrderById(id));
+            var ord = _orderRepository.GetOrderById(id);
+
+            ord.OrderPrice = ord.Products.Sum(p => p.ProdPrice);
+
+            if(ord != null) return OrderDTO.ToDTO(ord);
+
+            return null;
         }
 
-        public void CreateOrder(AddOrderRequest orders)
+        public bool CreateOrder(AddOrderRequest orders)
         {
             var products = _productRepository.GetProductsByIds(orders.ProductsId);
             var user = _userRepository.GetByName(orders.Username);
+
+            if (products.Count == 0) return false;
             var obj = new Order()
             {
                 OrderState = orders.OrderState,
-                OrderPrice = orders.OrderPrice,
                 ClientUser = user,
                 Products = products.ToList(),
             };
 
             _orderRepository.CreateOrder(obj);
             _orderRepository.SaveChanges();
+            return true;
         }
 
-        public void UpdateOrder(UpdateOrderRequest order)
+        public bool UpdateOrder(UpdateOrderRequest order)
         {
             var products = _productRepository.GetProductsByIds(order.ProductsId);
             var orderentity = _orderRepository.GetOrderById(order.Id);
+            if(orderentity == null)
+            {
+                return false;
+            }
+
+            if(products.Count == 0) return false;
+
             orderentity.OrderState = order.OrderState;
-            orderentity.OrderPrice = order.OrderPrice;
             orderentity.Products = products.ToList();
 
             _orderRepository.UpdateOrder(orderentity);
             _orderRepository.SaveChanges();
+
+            return true;
         }
 
-        public void DeleteOrder(int id)
+        public bool DeleteOrder(int id)
         {
-            _orderRepository.DeleteOrder(id);
+           return _orderRepository.DeleteOrder(id);
         }
     }
 }

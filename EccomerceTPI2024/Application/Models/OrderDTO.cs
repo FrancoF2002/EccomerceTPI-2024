@@ -15,7 +15,11 @@ namespace Application.Models
         [Required]
         public bool State { get; set; } = true;
         [Required]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
+        [Required]
+        public List<int> Products { get; set; }
+        [Required]
+        public string UserName { get; set; }
 
         public static OrderDTO ToDTO(Order entity)
         {
@@ -24,6 +28,8 @@ namespace Application.Models
             dto.Id = entity.Id;
             dto.State = entity.OrderState;
             dto.Price = entity.OrderPrice;
+            dto.UserName = entity.ClientUser.Name;
+            dto.Products = entity.Products.Select(p => p.Id).ToList();
             return dto;
         }
 

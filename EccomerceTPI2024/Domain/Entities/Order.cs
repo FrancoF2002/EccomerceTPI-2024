@@ -15,8 +15,8 @@ namespace Domain.Entities
         public int Id { get; set; }
         [Required]
         public bool OrderState { get; set; }
-        [Required]
-        public double OrderPrice { get; set; }
+        [NotMapped]
+        public decimal OrderPrice { get; set; }
         public List<Product> Products { get; set; }
         public User ClientUser { get; set; }
     }

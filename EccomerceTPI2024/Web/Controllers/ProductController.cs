@@ -39,7 +39,11 @@ namespace Web.Controllers
         [HttpGet("{name}")]
         public ActionResult GetByName(string name)
         {
-            return Ok(_prodService.GetProductByName(name));
+            var prod = _prodService.GetProductByName(name);
+
+            if(prod == null) return NotFound("Product not found");
+
+            return Ok(prod);
         }
 
         [HttpPost]
@@ -70,7 +74,10 @@ namespace Web.Controllers
         [Authorize(Roles = "Administrador")]
         public ActionResult DeleteProduct(string name)
         {
-            _prodService.DeleteProduct(name);
+            var del = _prodService.DeleteProduct(name);
+
+            if (del == false) return NotFound();
+
             return NoContent();
         }
     }

@@ -12,9 +12,9 @@ namespace Application.Interfaces
     public interface IOrderService
     {
         List<OrderDTO> GetAll();
-        OrderDTO GetOrderById(int id);
-        void UpdateOrder(UpdateOrderRequest order);
-        void DeleteOrder(int id);
-        void CreateOrder(AddOrderRequest orders);
+        OrderDTO? GetOrderById(int id);
+        bool UpdateOrder(UpdateOrderRequest order);
+        bool DeleteOrder(int id);
+        bool CreateOrder(AddOrderRequest orders);
     }
 }

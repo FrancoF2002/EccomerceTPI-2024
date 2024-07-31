@@ -15,7 +15,7 @@ namespace Application.Interfaces
         ProductDTO? GetProductByName(string name);
         void AddProduct(AddProductRequest request);
         void UpdateProduct(string name, UpdateProductRequest product);
-        void DeleteProduct(string name);
+        bool DeleteProduct(string name);
 
     }
 }

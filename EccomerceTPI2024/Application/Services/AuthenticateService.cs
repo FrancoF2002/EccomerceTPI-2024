@@ -43,13 +43,13 @@ namespace Application.Services
         }
 
 
-        public string Authenticate(AuthenticateRequest authenticateRequest)
+        public string? Authenticate(AuthenticateRequest authenticateRequest)
         {
             var user = ValidateUser(authenticateRequest);
 
             if (user == null)
             { 
-                throw new ApplicationException("El usuario no pudo ser autenticado");
+                return null;
             }
 
             //Paso 2: Crear el token

@@ -17,6 +17,7 @@ namespace Application.Models.Request
         public string Email { get; set; }
         [MinLength(8), MaxLength(16)]
         public string Password { get; set; }
+        [Range (0,1)]
         public UserType UserType { get; set; }
     }
 }

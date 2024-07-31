@@ -1,5 +1,6 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,12 +20,12 @@ namespace Infrastructure.Repositories
 
         public List<Order> GetAll()
         {
-            return _context.Order.ToList();
+            return _context.Order.Include(o => o.ClientUser).Include(o => o.Products).ToList();
         }
 
-        public Order GetOrderById(int id)
+        public Order? GetOrderById(int id)
         {
-            return _context.Order.FirstOrDefault(p => p.Id == id);
+            return _context.Order.Include(o => o.ClientUser).Include(o => o.Products).FirstOrDefault(p => p.Id == id);
         }
 
         public void CreateOrder(Order order)
@@ -39,14 +40,16 @@ namespace Infrastructure.Repositories
             _context.SaveChanges();
         }
 
-        public void DeleteOrder(int id)
+        public bool DeleteOrder(int id)
         {
             var order = _context.Order.Find(id);
             if (order != null)
             {
                 _context.Order.Remove(order);
                 _context.SaveChanges();
+                return true;
             }
+            return false;
         }
 
         public void SaveChanges()

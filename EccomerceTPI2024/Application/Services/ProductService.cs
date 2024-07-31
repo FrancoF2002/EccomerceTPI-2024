@@ -32,8 +32,13 @@ namespace Application.Services
 
         public ProductDTO? GetProductByName(string name)
         {
-            
-            return ProductDTO.ToDTO(_repository.GetProductByName(name));
+            var prod = _repository.GetProductByName(name);
+
+            if (prod != null)
+            {
+                return ProductDTO.ToDTO(prod);
+            }
+            else { return null; }
         }
 
         //Metodo 3: Crea un producto
@@ -74,15 +79,16 @@ namespace Application.Services
         }
 
         //Metodo 5: Elimina un producto
-        public void DeleteProduct(string name)
+        public bool DeleteProduct(string name)
         {
             var deleteProductValidate = _repository.GetProductByName(name);
 
             if (deleteProductValidate != null) { 
                 _repository.DeleteProduct(deleteProductValidate);
                 _repository.SaveChanges();
-            }  
-
+                return true;
+            }
+            return false;
         }
 
 

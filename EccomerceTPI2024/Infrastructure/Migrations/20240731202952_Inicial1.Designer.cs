@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240612230353_AddUserOrderRelation")]
-    partial class AddUserOrderRelation
+    [Migration("20240731202952_Inicial1")]
+    partial class Inicial1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,21 +21,17 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Order", b =>
                 {
-                    b.Property<int>("OrderId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("ClientUserId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("OrderPrice")
-                        .HasColumnType("REAL");
+                    b.Property<bool>("OrderState")
+                        .HasColumnType("INTEGER");
 
-                    b.Property<string>("OrderState")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("OrderId");
+                    b.HasKey("Id");
 
                     b.HasIndex("ClientUserId");
 
@@ -44,7 +40,7 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("ProdId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -65,7 +61,7 @@ namespace Infrastructure.Migrations
                     b.Property<int>("ProdStock")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("ProdId");
+                    b.HasKey("Id");
 
                     b.ToTable("Products");
                 });
@@ -104,12 +100,12 @@ namespace Infrastructure.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ProductProdId")
+                    b.Property<int>("ProductsId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("OrderId", "ProductProdId");
+                    b.HasKey("OrderId", "ProductsId");
 
-                    b.HasIndex("ProductProdId");
+                    b.HasIndex("ProductsId");
 
                     b.ToTable("OrderProduct");
                 });
@@ -135,7 +131,7 @@ namespace Infrastructure.Migrations
 
                     b.HasOne("Domain.Entities.Product", null)
                         .WithMany()
-                        .HasForeignKey("ProductProdId")
+                        .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

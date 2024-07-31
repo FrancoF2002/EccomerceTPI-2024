@@ -12,9 +12,6 @@ namespace Application.Models.Request
     {
         [Required]
         public bool OrderState { get; set; } = false;
-        [Required]
-        [Range(0, 10000000)]
-        public double OrderPrice { get; set; }
         public IList<int> ProductsId { get; set; }
         [Required]
         [MinLength(3), MaxLength(15)]
